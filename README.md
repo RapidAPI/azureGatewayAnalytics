@@ -12,7 +12,8 @@ This code utilizes a Timer Trigger function in Azure to gather reports on API tr
 1. Access to the Azure Platform. You can [try it for free here](https://azure.microsoft.com/en-us/free/). 
 2. Set up a [Timer Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-timer?tabs=in-process&pivots=programming-language-csharp) Azure Function
 3. Set up an [HTTP Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=in-process%2Cfunctionsv2&pivots=programming-language-csharp) Azure Function
-4. Set the following environment values in your .env file to support the javascript code running in the Azure serverless function.
+4. Install the dotnev npm using the command in VS Code terminal "npm i dotenv"
+5. Set the following environment values in your .env file to support the javascript code running in the Azure serverless function.
 
 ## Environment Values:
 
